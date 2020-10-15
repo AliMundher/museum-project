@@ -1,4 +1,7 @@
 /* Start Reset */
+html {
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +9,7 @@
 }
 /* End Reset */
 body {
-  height: 3000px;
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
@@ -555,6 +558,7 @@ footer {
   color: var(--textColor);
   padding: 10px;
 }
+
 /*----- End My FrameWork -----*/
 
 @media (min-width: 576px) {
