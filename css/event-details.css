@@ -1,4 +1,4 @@
-@import "style.css";
+@import "homepage.css";
 
 body {
   height: 4000px;
@@ -8,7 +8,7 @@ body {
   position: relative;
   margin-bottom: 7%;
 }
-.landing img {
+s .landing img {
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
@@ -315,9 +315,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* .under_landing__links {
-    flex-direction: column;
-  }*/
   .under_landing__links ul {
     text-align: center;
     width: 70%;
